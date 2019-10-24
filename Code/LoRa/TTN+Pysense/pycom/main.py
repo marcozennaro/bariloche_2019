@@ -83,7 +83,7 @@ while True:
     print(msgLora)
     # ----------------- send msgLora to TTN via LoraWan
     s = socket.socket(socket.AF_LORA, socket.SOCK_RAW)
-    s.setsockopt(socket.SOL_LORA, socket.SO_DR, 5)
+    s.setsockopt(socket.SOL_LORA, socket.SO_DR, 3)
     s.send(msgLora)                     # send data to TTN
     #
     print("----------------------------[END MSG TX LORA]")

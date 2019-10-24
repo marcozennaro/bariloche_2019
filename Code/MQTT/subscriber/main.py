@@ -7,7 +7,7 @@ import pycom
 wifi_ssid = "_WiFi-SSID_"
 wifi_passwd = "_WiFi-password"
 broker_addr = "test.mosquitto.org"
-MYDEVID = "your_name_or_code"
+MYDEVID = "__A DEVICE ID__"
 
 
 def settimeout(duration):

@@ -12,7 +12,7 @@ wifi_ssid = "__YOUR_SSID__"
 wifi_passwd = "__YOUR_PW__"
 
 broker_addr = "test.mosquitto.org"
-MYDEVID = "PM"
+MYDEVID = "__A DEVICE ID__"
 
 def settimeout(duration):
    pass
